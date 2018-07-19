@@ -1,0 +1,31 @@
+/* PHASE 3: Layout */
+.content {
+min-height: 200px;
+background: white;
+width: 900px;
+margin: 0 auto;
+display: flex;
+border-left: 1px solid #ccc;
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+/* justify-content: center;
+align-items: stretch; */
+/* flex-direction: row; */
+}
+
+.content-sidebar {
+  /* display: inline-block; */
+  background: white;
+  min-height: 200px;
+  width: 30%;
+  z-index: 99;
+  flex-grow: 1;
+  border-right: 1px solid #ccc;
+}
+.content-main {
+  /* display: inline-block; */
+  background: white;
+  min-height: 200px;
+  width: 60%;
+  flex-grow: 3;
+}
